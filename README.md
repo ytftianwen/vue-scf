@@ -1,7 +1,13 @@
-# scaffold_vue
+# vue-scf（scf即scaffold）
 
-> A Vue.js project
+## 基于vue-cli的个性化脚手架，主要改变有
+>1、改变单文件组件.vue开发结构，采用html+js+less开发结构
 
+>2、增加基于vue-resource的http封装请求(commons中的http)
+
+>3、增加自定义vue插件的架构components下
+
+>4、开发大型项目时的路由封装部分待定，暂时采用vue-cli的方式()
 ## Build Setup
 
 ``` bash
@@ -26,5 +32,3 @@ npm run e2e
 # run all tests
 npm test
 ```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
