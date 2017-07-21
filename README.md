@@ -2,7 +2,13 @@
 
 ## 基于vue-cli的个性化脚手架，主要改变有
 >1、改变单文件组件.vue开发结构，采用html+js+less开发结构
-
+  组织结构
+  
+    -dir 
+      -index.js
+      -style.less
+      -template.html
+    
 >2、增加基于vue-resource的http封装请求(commons中的http)
 
 >3、增加自定义vue插件的架构components下
